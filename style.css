@@ -1,0 +1,25 @@
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.searchbar{
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: lightgray;
+    padding-left: 5px;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+    background-size: auto;
+    
+    
+    
+}

@@ -1,35 +1,74 @@
 .logo{
     position: absolute;
-    width: 20%;
-    top: 40%;
+    width: 15%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .searchbar{
-    width: 40%;
+    width: 30%;
     height: 5%;
     position: absolute;
-    top: 56%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
     border: solid 1px;
     border-radius: 20px;
     border-color: lightgray;
-    padding-left: 5px;
+    padding-left: 50px;
     outline: none;
+    background: url(https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png) no-repeat;
+    background-size: 20px;
+    background-position-x: left 10px;
+    background-position-y: center;
+    background-blend-mode: lighten;
 }
 .googlebutton {
     width: 20%;
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 60%;
+    left: 52%;
     transform: translate(-50%, -50%);
 
 }
 
+li {
+    display: inline;
+}  
 
+.about {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+
+.login {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    
+}
+
+.grid {
+    height: 30px;
+    position: relative;
+    top: 7px;
+}
+
+.signin {
+    background-color: #6686ff;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+}
 
 
 
